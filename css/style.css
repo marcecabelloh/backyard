@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #7b7474;
+}
+
+
+.navbar{
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: space-around;
+	align-content: center;
+    color: #7b7474;
+}
+
+ul{
+	list-style: none;
+	margin:0;   
+
+}
+
+ul li a{
+	
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	padding:55px;
+	margin: 0;
+}
+
+ul li:hover{
+	background:#7b7474;
+}
+
+/*seccion texto*/
+.seccion-texto{
+	display: flex;
+}
+
+.texto{
+	color: white;
+	flex-direction: row;
+
+}
+
+/*seccion caja formulario*/
+
