@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #7b7474;
+}
+
+.formulario{
+	text-align: center;
+	color: white;
+	background: #4a4646;
+	width: 400px;
+	border: 1px solid #4e4d4d;
+	margin-bottom: 200px;
+    margin-top: -100px;
+    margin-right:50px;
+}
+
+
+@media (min-width: 535px) and (max-width: 824px){
+
+body{
+		background-color: #d55050;
+		color: white;
+	}
+
+	.formulario{
+		border: 6px solid white;
+	}
+	
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+
+body{
+		background-color: yellow;
+		color: white;
+	}
+
+	.formulario{
+		border: 6px solid green;
+	}
+	
+}
+	
+
